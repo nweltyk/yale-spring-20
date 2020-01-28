@@ -11,5 +11,10 @@ body {
 p {
   font-family: avoidica;
   font-size: 14pt;
+  letter-spacing: .05em;
   line-height: 1.5em;
+}
+
+.red {
+  color: red;
 }

@@ -1,0 +1,15 @@
+body {
+  margin: 1.5em;
+  max-width: 800px;
+}
+
+@font-face {
+  font-family: avoidica;
+  src: url(avoidica.woff);
+}
+
+p {
+  font-family: avoidica;
+  font-size: 14pt;
+  line-height: 1.5em;
+}

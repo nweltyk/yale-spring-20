@@ -16,23 +16,31 @@ html, body {
 	text-align: left;
 }
 
-.main_container {
-	padding: 20px;
-	font-size: 0;
-}
-
-.letters_container{
+.container {
 	display: inline-block;
-	font-size: 24px;
-	margin: 0;
+	font-size: 0px;
+	padding: 24px;
 	width: auto;
 }
 
-.cursor {
-	display: inline-block;
+#typewriter {
 	font-size: 24px;
-	margin: 0;
+	white-space: pre-line;
+}
+
+.cursor {
+	font-size: 24px;
   animation: 1s blink step-end infinite;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+::-moz-selection {
+  color: white;
+  background: black;
 }
 
 @-webkit-keyframes "blink" {
